@@ -3,12 +3,15 @@ import sys
 
 def make_a_list():
     """
-    Make a list and return it
+    make a list object
+    the object should have 4 elements
     """
-    return []
+    return
+
 
 
 if __name__ == '__main__':
     alist = make_a_list()
     assert type(alist) == list
-    print ("PASSED!!! Congratulations.")
+    assert len(alist) == 4
+    print ("PASSED FIRST TEST!!! Congratulations.")
