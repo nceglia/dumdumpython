@@ -6,7 +6,8 @@ def make_a_list():
     make a list object
     the object should have 4 elements
     """
-    return
+    mylist = [3,6,9,12]
+    return mylist
 
 
 
